@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../includes/account.h
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+algorithm
+-
+utility
+-
+thread
+-
+condition_variable
+-
+mutex
+-
+chrono
+-
+
+../includes/account_handler.h
+account.h
+../includes/account.h
+
+/home/agh/work/c++/algorithm/ATM/git_test/ATM_controller/ATM_controller.cc
+account_handler.h
+/home/agh/work/c++/algorithm/ATM/git_test/ATM_controller/account_handler.h
+
+/home/agh/work/c++/algorithm/ATM/git_test/ATM_controller/account.cc
+account.h
+/home/agh/work/c++/algorithm/ATM/git_test/ATM_controller/account.h
+
+/home/agh/work/c++/algorithm/ATM/git_test/ATM_controller/account_handler.cc
+account_handler.h
+/home/agh/work/c++/algorithm/ATM/git_test/ATM_controller/account_handler.h
+
